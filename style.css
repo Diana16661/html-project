@@ -1,0 +1,92 @@
+/* Buttons */
+.order-button {
+    color: white;
+}
+.try-button {
+    color: rgb(140, 242, 139);  
+}
+
+/* Header */
+.header__main-section {
+    background-image: url('img/header/background.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+}
+.header__nav-bar {
+    display: flex;
+}
+
+.header__link {
+    color: white;
+}
+/* Features */
+.features__cards {
+display: flex;
+}
+.features__img-click {
+    position: relative;
+    display: inline-block;
+}
+
+.f_img-bg {
+    width: 100%;
+    max-width: 1177px;
+    height: 100%;
+    max-height: 658px;
+
+}
+
+.f_img-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Pricing */
+.pricing {
+    background-color: rgba(37, 43, 66, 1);
+    color: white;
+}
+
+.pricing_boxes {
+    display: flex;
+}
+
+.pricing_box-amount {
+    display: flex;
+}
+
+/* Contacts */
+.contacts_container {
+    display: flex;
+}
+
+.cont__info-box {
+    display: flex;
+}
+
+.cont__in-data {
+    display: block;
+}
+
+/* Footer */
+.footer {
+    color: white;
+    display: flex;
+    background-color: rgba(37, 43, 66, 1);
+}
+
+.footer__boxes {
+    margin: 10px;
+}
+.footer_link {
+    display: block;
+    color: white;
+}
+
+.footer_info {
+    display: flex;
+}
