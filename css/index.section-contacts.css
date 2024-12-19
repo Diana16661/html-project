@@ -1,0 +1,15 @@
+.contacts_container {
+    display: flex;
+}
+
+.cont__info-box {
+    display: flex;
+}
+
+.cont__in-data {
+    display: block;
+}
+
+.cont__info-maps {
+    display: none;
+}

@@ -1,0 +1,9 @@
+.pricing {
+    background-color: rgba(37, 43, 66, 1);
+    color: white;
+}
+
+
+.pricing_box-amount {
+    display: flex;
+}

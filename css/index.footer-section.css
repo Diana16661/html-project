@@ -1,0 +1,16 @@
+.footer {
+    color: white;
+    background-color: rgba(37, 43, 66, 1);
+}
+
+.footer__boxes {
+    margin: 10px;
+}
+.footer_link {
+    display: block;
+    color: white;
+}
+
+.footer_info {
+    display: flex;
+}
