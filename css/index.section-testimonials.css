@@ -1,0 +1,35 @@
+.testimonials {
+    margin: 80px 0;
+    text-align: center;
+}
+
+.testimonials__title {
+    color: var(--primary-color);
+    text-align: center;
+    font-size: 45px;
+    line-height: 55px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+.testimonials__subtitle {
+    margin-bottom: 30px;
+    color: var(--primary-color);
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    font-size: 13.5px;
+    line-height: 17px;
+    font-weight: 700;
+    padding: 30px 80px;
+}
+
+.testimonials__img {
+    margin: 0;
+    display: grid;
+    place-items: center;
+    padding: 25px 0;
+
+    img {
+        padding: 15px 0;
+    }
+}
