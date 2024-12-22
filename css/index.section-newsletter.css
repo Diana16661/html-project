@@ -1,6 +1,27 @@
 .newsletter {
     margin: 80px 0;
     text-align: center;
+
+    @media (min-width: 1130px) {
+        padding: 70px 63px;
+    }
+ 
+}
+
+.news__intro-mobile {
+    @media (min-width: 1130px) {
+        display: none;
+    }
+}
+.news__intro-desktop {
+    display: none;
+    img {
+        object-fit: contain;
+    }
+    @media (min-width: 1130px) {
+        display: flex;
+        justify-content: space-evenly;
+    }
 }
 
 .news__title-up {
@@ -10,6 +31,11 @@
     line-height: 28px;
     font-weight: 700;
     padding: 20px 0;
+
+    @media (min-width: 1130px) {
+        text-align: left;
+        padding: 10px 30px;
+    }
 }
 
 .news__title {
@@ -19,6 +45,11 @@
     line-height: 55px;
     font-weight: 400;
     padding-bottom: 10px;
+
+    @media (min-width: 1130px) {
+        text-align: left;
+        padding: 0 30px;
+    }
 }
 
 .news__subtitle {
@@ -29,10 +60,6 @@
     line-height: 40px;
     font-weight: 400;
     padding: 30px;
-
-    span {
-        display: none;
-    }
 }
 
 .news__btn-sub-block {
@@ -40,6 +67,12 @@
     flex-direction: column;
     margin: 70px 0;
     padding: 0 30px;
+
+    @media (min-width: 1130px) {
+        padding: 0 30px;
+        margin: 20px 0;
+    }
+
 }
 
 .news__btn-title {
@@ -49,6 +82,10 @@
     line-height: 28px;
     font-weight: 700;
     padding: 5px 0;
+
+    @media (min-width: 1130px) {
+        text-align: left;
+    }
 }
 
 .news__btn-subtitle {
@@ -59,6 +96,14 @@
     font-weight: 400;
     padding: 5px 0;
     margin-bottom: 25px;
+
+    @media (min-width: 1130px) {
+        text-align: left;
+    }
+}
+
+.news__btn-intro {
+    display: flex;
 }
 
 .btn__sub-input {
@@ -68,6 +113,18 @@
     padding: 16px;
     color:var(--primary-color);
     margin-bottom: 15px;
+
+    @media (min-width: 1130px) {
+        margin-bottom: 0;
+    }
 }
+
+.news__wrapper {
+    padding: 35px 25px;
+}
+
+/* @media (min-width: 1130px) {
+
+} */
 
 

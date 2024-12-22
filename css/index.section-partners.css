@@ -23,6 +23,9 @@
 
     span {
         display: none;
+        @media (min-width: 1130px) {
+            display: block;
+        }
     }
 }
 
@@ -35,8 +38,19 @@
     img {
         padding: 15px 0;
     }
+
+    @media (min-width: 1130px) {
+        display: none;
+    }
 }
 
 .partners__img-desktop {
     display: none;
+    @media (min-width: 1130px) {
+        display: block;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        padding-bottom: 50px;
+    }
 }
