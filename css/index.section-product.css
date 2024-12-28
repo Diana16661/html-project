@@ -53,9 +53,9 @@
     padding: 0 10px;
     margin-top: 50px;
     object-fit: contain;
+
+    @media (min-width: 1130px) {
+        max-width: 600px;
+    }
 }
-
-/* @media (min-width: 1130px) {
-
-} */
 

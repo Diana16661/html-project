@@ -17,10 +17,11 @@
     display: none;
     img {
         object-fit: contain;
+        max-width: 600px;
     }
     @media (min-width: 1130px) {
         display: flex;
-        justify-content: space-evenly;
+        justify-content: center;
     }
 }
 
@@ -122,9 +123,5 @@
 .news__wrapper {
     padding: 35px 25px;
 }
-
-/* @media (min-width: 1130px) {
-
-} */
 
 
